@@ -1,5 +1,5 @@
 ---
-permalink: /teaching/
+permalink: /catos/
 title: "Teaching"
 ---
 

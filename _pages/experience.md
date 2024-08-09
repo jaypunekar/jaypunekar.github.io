@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Research"
-permalink: /research/
+permalink: /experience/
 author_profile: true
 header:
   og_image: "research/ecdf.png"

@@ -7,22 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Welcome to my portfolio! I am a BSc Mathematics graduate currently pursuing a Postgraduate Diploma in Data Science and Artificial Intelligence from COEP Technological University. My journey so far has been very diverse, encompassing hands-on experience with projection mapping, static web development, drone swarming, and microcontrollers(ESP8266/ESP32). 
 
-Welcome! I am a data scientist applying machine learning tools and causal
-inference techniques to remote sensing data. I am an affiliated
-researcher with the [Data-driven Analysis of Peace Project](https://dapp-lab.org)
-and a research collaborator with the 
-[Research on International Policy Implementation Lab](https://bridgingthegapproject.org/ripil).
+I have had the opportunity to work on Virtual Reality syncing and collaborate with former ISRO (Indian Space Research Organization) scientists on multiple hardware projects at Suresh Naik Space Park in Pune. Currently, I am diving deep into the fields of Data Science and AI/ML, exploring their vast potentials and applications.
 
-I earned my PhD in Political Science from the
-[University *of* North Carolina *at* Chapel Hill](https://www.unc.edu) and my
-BA in Political Science from [Haverford College](https://www.haverford.edu).
-My academic work has been [published](publications) or is forthcoming in the
-*American Political Science Review*, *International Studies Quarterly*,
-*Conflict Management and Peace Science*, and
-*Political Science Research and Methods*, among other outlets. This
-[research](research) explores the causes and consequences of political violence
-using a broad variety of methods such as latent variable models, geospatial
-analysis, and big data. I have [taught](teaching) quantitative methodology and
-international relations, and am a certified instructor with
-[The Carpentries](https://carpentries.org).
+This portfolio website is a space where I share my knowledge and insights. You’ll find tutorials on niche topics such as drone swarming and projection mapping—areas with limited resources available online—as well as blog posts discussing various aspects of data science and artificial intelligence.

@@ -1,18 +1,18 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Tutorials"
+    url: /tutorials/
     
-  - title: "Research"
-    url: /research/
+  - title: "Experience"
+    url: /experience/
 
-  - title: "Teaching"
-    url: /teaching/
+  - title: "CatOS"
+    url: /catos/
 
-  - title: "Software"
+  - title: "Projects"
     url: /software/
 
-  - title: "Posts"
+  - title: "Blog"
     url: /posts/
     
   - title: "CV"
