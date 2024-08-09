@@ -13,7 +13,7 @@ name                     : &name "Jay Punekar"
 description              : &description "BSc Mathematics"
 url                      : https://jaypunekar.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jayrobwilliams/jayrobwilliams.github.io"
+repository               : "jaypunekar/jaypunekar.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -79,21 +79,21 @@ analytics:
   google:
     tracking_id          : 
   goatcounter:
-    code		 : jayrobwilliams
+    code		 : jaypunekar
 
 
 # Site Author
 author:
-  name             : "Rob Williams"
-  avatar           : "profile.png"
-  bio              : "Data Scientist"
-  location         :
-  employer         :
+  name             : "Jay Punekar"
+  avatar           : "profile.jpg"
+  bio              : "VIM >> EMACS"
+  location         : "Pune, Maharashtra"
+  employer         : "COEP Tech University"
   pubmed           :
-  orcid            : "http://orcid.org/0000-0001-9259-3883"
-  googlescholar    : "https://scholar.google.com/citations?user=fiaPSmgAAAAJ"
-  email            : "rob.williams@wustl.edu"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  orcid            : 
+  googlescholar    : 
+  email            : "jay.punekar@icloud.com"
+  researchgate     : 
   uri              :
   bitbucket        :
   codepen          :
@@ -101,21 +101,21 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jayrobwilliams"
-  gitlab           : "jayrobwilliams"
+  github           : "jaypunekar"
+  gitlab           : 
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         :
-  mastodon         : "fosstodon.org/@jayrobw"
+  linkedin         : "jaypunekar"
+  mastodon         : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
+  stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "jaypun3kar"
   vine             :
   weibo            :
   xing             :
