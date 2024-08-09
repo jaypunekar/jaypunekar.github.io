@@ -6,14 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-IN"
-title                    : "Jay Punekar"
+locale                   : "en-US"
+title                    : "Rob Williams"
 title_separator          : "-"
-name                     : &name "Jay Punekar"
-description              : &description "BSc. Mathematics"
-url                      : https://jaypunekar.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Rob Williams"
+description              : &description "Postdoc in Political Science"
+url                      : https://jayrobwilliams.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jaypunekar/jaypunekar.github.io"
+repository               : "jayrobwilliams/jayrobwilliams.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -79,20 +79,20 @@ analytics:
   google:
     tracking_id          : 
   goatcounter:
-    code		 : jaypunekar
+    code		 : jayrobwilliams
 
 
 # Site Author
 author:
-  name             : "Jay Punekar"
-  avatar           : "profile.jpg"
-  bio              : "COEP Technological University"
-  location         : "Pune, Maharashtra"
-  employer         : 
+  name             : "Rob Williams"
+  avatar           : "profile.png"
+  bio              : "Data Scientist"
+  location         :
+  employer         :
   pubmed           :
-  orcid            : 
-  googlescholar    : 
-  email            : "jay.punekar@icloud.com"
+  orcid            : "http://orcid.org/0000-0001-9259-3883"
+  googlescholar    : "https://scholar.google.com/citations?user=fiaPSmgAAAAJ"
+  email            : "rob.williams@wustl.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -101,21 +101,21 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "jaypunekar"
-  gitlab           : 
+  github           : "jayrobwilliams"
+  gitlab           : "jayrobwilliams"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "jaypunekar"
-  mastodon         : 
+  linkedin         :
+  mastodon         : "fosstodon.org/@jayrobw"
   pinterest        :
   soundcloud       :
   stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
   steam            :
   tumblr           :
-  twitter          : "jaypun3kar"
+  twitter          : 
   vine             :
   weibo            :
   xing             :

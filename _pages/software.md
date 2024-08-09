@@ -18,15 +18,13 @@ header:
   og_image: "software/spatial_weighting.png"
 ---
 
-Here, I have showcased some Major End-to-End Projects on Machine Learning, Deep Learning and Python. All projects have detailed explaination and Demo Video attached. To view all my projects visit my [Github](https://github.com/jaypunekar)
+As one of my two research agendas involves improving the tools we use to study peace and conflict, a good deal of my time is spent using statistical software. Below you'll find software for working with estimates from Bayesian models and some code that I've written to save time on tasks that I find myself doing over and over again.
 
 # BayesPostEst
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg?logo=github)](https://github.com/{username}/{repository})
-[![YouTube](https://img.shields.io/badge/YouTube-Video-red.svg?logo=youtube)](https://www.youtube.com/{yourchannel})
-<!-- [![R build status](https://github.com/ShanaScogin/BayesPostEst/workflows/R-CMD-check/badge.svg)](https://github.com/ShanaScogin/BayesPostEst/ac   ) -->
-<!-- [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/BayesPostEst)](https://CRAN.R-project.org/package=BayesPostEst)
-[![Codecov test coverage](https://codecov.io/gh/ShanaScogin/BayesPostEst/branch/master/graph/badge.svg)](https://codecov.io/gh/ShanaScogin/BayesPostEst?branch=master) -->
+[![R build status](https://github.com/ShanaScogin/BayesPostEst/workflows/R-CMD-check/badge.svg)](https://github.com/ShanaScogin/BayesPostEst/actions)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/BayesPostEst)](https://CRAN.R-project.org/package=BayesPostEst)
+[![Codecov test coverage](https://codecov.io/gh/ShanaScogin/BayesPostEst/branch/master/graph/badge.svg)](https://codecov.io/gh/ShanaScogin/BayesPostEst?branch=master)
 
 I am a developer of the [BayesPostEst](https://cran.r-project.org/package=BayesPostEst) R package for generating postestimation quantities of interest from Bayesian models. The package contains functions for producing regression tables, plotting predicted probabilities, calculating first differences, creating coefficient plots, and many other quantities. You can view the [Journal of Open Source Software](https://joss.theoj.org/) article for the package [here](https://doi.org/10.21105/joss.01722).
 

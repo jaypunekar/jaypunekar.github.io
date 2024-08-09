@@ -8,12 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-**Welcome!**
+Welcome! I am a data scientist applying machine learning tools and causal
+inference techniques to remote sensing data. I am an affiliated
+researcher with the [Data-driven Analysis of Peace Project](https://dapp-lab.org)
+and a research collaborator with the 
+[Research on International Policy Implementation Lab](https://bridgingthegapproject.org/ripil).
 
-I am a BSc Mathematics graduate currently pursuing a Postgraduate Diploma in Data Science and Artificial Intelligence. My professional journey includes hands-on experience with microcontrollers such as ESP8266 and ESP32, projection mapping, static web development, drone swarming, and software development using Python.
-
-I have worked on VR syncing using Oculus Quest and have had the privilege of collaborating with former ISRO (Indian Space Research Organization) scientists on multiple hardware projects at Suresh Naik Space Park in Pune. Currently, I am deeply immersed in exploring the field of Data Science and AI/ML.
-
-This portfolio website serves as a hub for sharing my knowledge and experiences. Here, you'll find tutorials on niche topics like drone swarming and projection mapping, which are not easily accessible on the internet. Additionally, I will be posting blogs discussing various aspects of data science and artificial intelligence (also Python ofc).
-
----
+I earned my PhD in Political Science from the
+[University *of* North Carolina *at* Chapel Hill](https://www.unc.edu) and my
+BA in Political Science from [Haverford College](https://www.haverford.edu).
+My academic work has been [published](publications) or is forthcoming in the
+*American Political Science Review*, *International Studies Quarterly*,
+*Conflict Management and Peace Science*, and
+*Political Science Research and Methods*, among other outlets. This
+[research](research) explores the causes and consequences of political violence
+using a broad variety of methods such as latent variable models, geospatial
+analysis, and big data. I have [taught](teaching) quantitative methodology and
+international relations, and am a certified instructor with
+[The Carpentries](https://carpentries.org).
