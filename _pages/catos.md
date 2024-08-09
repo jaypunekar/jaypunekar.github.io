@@ -1,6 +1,6 @@
 ---
 permalink: /catos/
-title: "Teaching"
+title: "CatOS"
 ---
 
 Research plays a central role in my teaching as students improve their
