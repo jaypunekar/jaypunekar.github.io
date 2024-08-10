@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Jay Punekar"
   avatar           : "profile.jpg"
-  bio              : "I use Arch BTW"
+  bio              : "I use Arch BTW <i class='fas fa-terminal'></i>"
   location         : "Pune, Maharashtra"
   employer         : 
   pubmed           :

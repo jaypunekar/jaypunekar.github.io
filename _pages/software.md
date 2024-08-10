@@ -1,6 +1,8 @@
 ---
 permalink: /software/
 title: "Software"
+excerpt_separator: <!--more-->
+toc: true
 gallery:
   - url: software/table.png
     image_path: software/table.png
@@ -18,14 +20,14 @@ header:
   og_image: "software/spatial_weighting.png"
 ---
 
-I have showcased some of my Major End-To-End Projects on Machine Learning, Deep Learning, Data Science and Python (And, YES! I know Deep Learning is a part of Machine Learning).
-To see all my technical projects check out my [Github](https://github.com/jaypunekar)
+I have showcased some of my Major End-To-End Projects on Machine Learning, Deep Learning, Data Science and Python (And, YES! I know Deep Learning is a part of Machine Learning). I have also given detailed desciption for each project and if I have written a tutorial on it I will also add the link.
+To see all my projects go to my [Github](https://github.com/jaypunekar).
 
-# BayesPostEst
+# AutoVoucherTally
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg?logo=github)](https://github.com/johndoe/awesome-project)
+<!-- [![YouTube](https://img.shields.io/badge/YouTube-Video-red.svg?logo=youtube)](https://www.youtube.com/UC1234567890abcdef) -->
+[![Details](https://img.shields.io/badge/Details-Click%20Here-blue.svg)](#details)
 
-[![R build status](https://github.com/ShanaScogin/BayesPostEst/workflows/R-CMD-check/badge.svg)](https://github.com/ShanaScogin/BayesPostEst/actions)
-[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/BayesPostEst)](https://CRAN.R-project.org/package=BayesPostEst)
-[![Codecov test coverage](https://codecov.io/gh/ShanaScogin/BayesPostEst/branch/master/graph/badge.svg)](https://codecov.io/gh/ShanaScogin/BayesPostEst?branch=master)
 
 I am a developer of the [BayesPostEst](https://cran.r-project.org/package=BayesPostEst) R package for generating postestimation quantities of interest from Bayesian models. The package contains functions for producing regression tables, plotting predicted probabilities, calculating first differences, creating coefficient plots, and many other quantities. You can view the [Journal of Open Source Software](https://joss.theoj.org/) article for the package [here](https://doi.org/10.21105/joss.01722).
 
