@@ -10,7 +10,7 @@ header:
 Here, I am sharing my previous freelance work experience, which spans diverse fields including dome projection mapping, IoT development, web development, and VR systems integration.
 
 ## River Paradise Resort
-<div align="right"><b>Date: </b>June 2023 - October 2023</div>
+<div align="right"><b>Date: </b>June 2023 - Oct 2023</div>
 *Dome Projection Mapping*
 - **Project**:
   - I worked on a dome projection mapping project where the visuals were projected onto a 10-meter geodesic dome. The goal was to create a fully immersive experience with precise alignment and seamless blending of visuals across the curved surface of the dome.
@@ -30,7 +30,7 @@ Here, I am sharing my previous freelance work experience, which spans diverse fi
   - By combining all this equipment and software, I was able to create a seamless and highly immersive visual experience on the dome. The projectors, media server, and software all worked together to produce a stunning display that covered the entire surface of the dome with perfectly aligned and blended visuals.
 
 ## CanSat
-<div align="right"><b>Date: </b>Febuary 2023 - July 2023</div>
+<div align="right"><b>Date: </b>Feb 2023 - July 2023</div>
 *IOT Development*
 - Collaborated with Dr. Sathish Rao (ISRO Scientist) to create a Miniature Satellite for a workshop that has been conducted in multiple schools across Pune.
 
@@ -41,7 +41,7 @@ Rs. 1800 to Rs. 500, ensuring affordability for all students.
 
 
 ## Suresh Naik Space park
-<div align="right"><b>Date: </b>September 2022 - November 2022</div>
+<div align="right"><b>Date: </b>Sep 2022 - Nov 2022</div>
 *Web Development (freelance)*
 - Designed and developed a captivating website for Suresh Naik Space Park, a space-themed park in Pune, using HTML, CSS, JavaScript, and Bootstrap. Key aspects of this project included:
 
@@ -52,7 +52,7 @@ Rs. 1800 to Rs. 500, ensuring affordability for all students.
 - Engaging Content: Developed and structured content to highlight the park's attractions, educational programs, and events, showcasing the wonders of space science and technology.
 
 ## Suresh Naik Space park
-<div align="right"><b>Date: </b>September 2021 - Febuary 2022</div>
+<div align="right"><b>Date: </b>Sep 2021 - Feb 2022</div>
 *VR Syncing*
 - Implemented a system to sync multiple Virtual Reality (VR) headsets, including Oculus Go, Oculus Quest, and Oculus Quest 2, using a single computer. This setup was designed to showcase educational space films to school students visiting the park. Responsibilities included:
 

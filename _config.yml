@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Jay Punekar"
   avatar           : "profile.jpg"
-  bio              : "I use Arch BTW <i class='fas fa-terminal'></i>"
+  bio              : "<b><i>COEP Tech University</i></b>"
   location         : "Pune, Maharashtra"
   employer         : 
   pubmed           :
@@ -278,6 +278,8 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+contact:
+  phone: "+91 9730307167"
 
 # Archives
 #  Type
