@@ -2,6 +2,7 @@
 # layout: archive
 title: "Work Experience"
 permalink: /experience/
+toc: true
 author_profile: true
 header:
   og_image: "research/ecdf.png"
@@ -11,22 +12,23 @@ Here, I am sharing my previous freelance work experience, which spans diverse fi
 
 ## River Paradise Resort
 <div align="right"><b>Date: </b>June 2023 - Oct 2023</div>
-*Dome Projection Mapping*
-- **Project**:
+*<b>Dome Projection Mapping</b>*
+
+### Project:
   - I worked on a dome projection mapping project where the visuals were projected onto a 10-meter geodesic dome. The goal was to create a fully immersive experience with precise alignment and seamless blending of visuals across the curved surface of the dome.
 
-- **Equipment**:
+### Equipment:
   - I used four short-throw projectors to ensure that the visuals covered the entire dome surface without distortion.
   - A powerful media server equipped with an Nvidia Quadro graphics card was responsible for handling the visual data. The Quadro card was crucial for rendering the high-quality visuals required for such an immersive projection.
   - The visuals were captured using a Canon EOS 5D Mark IV camera, paired with a Canon EF 8-15mm f/4L Fisheye USM lens. This lens was chosen specifically for its ability to capture wide-angle images, which are essential for dome projection.
 
-- **Software**:
+### Software:
   - Vioso 6 was used to handle the complex task of warping, blending, and calibrating the visuals across the dome's surface. Its advanced features made it possible to achieve a perfect alignment between the projectors.
   - NestMap software played a key role in mapping and aligning the visuals on the dome. It provided the necessary tools to ensure that the images were correctly placed and blended across the dome’s curved surface.
   - NestPlay Lite was utilized to manage content playback. It ensured that the visual content was played smoothly and in sync across all the projectors, which is crucial for maintaining the immersive experience.
   - The EOS Webcam Utility Software allowed me to monitor the setup in real-time. This was particularly useful for making adjustments on the fly and ensuring that everything was running as expected.
 
-- **Outcome**:
+### Outcome:
   - By combining all this equipment and software, I was able to create a seamless and highly immersive visual experience on the dome. The projectors, media server, and software all worked together to produce a stunning display that covered the entire surface of the dome with perfectly aligned and blended visuals.
 
 ## CanSat
@@ -63,35 +65,3 @@ Rs. 1800 to Rs. 500, ensuring affordability for all students.
 - Training: Trained park employees on how to operate and manage the VR system, ensuring smooth operation during student visits.
 
 
-
-<!-- My academic research falls into two main areas: understanding the influence of
-geography on actor behavior before, during, and after civil conflict, and
-developing new tools to improve the study of institutions (both formal and
-informal) in peace and conflict. One strand of research in this first area
-explores how the territories that ethnic groups inhabit shape rebel group
-formation and condition their relationship with the state. My interest in
-geography also informs projects on active conflicts including the targeting of
-UN peacekeepers by insurgent groups, civilian victimization after rebel
-territorial conquest, and communal violence in fragile settings.
-
-My other main research agenda uses advanced methods to develop new measures of
-institutions. One project uses Bayesian item response theory to measure the
-strength of peace agreements as a latent variable and free researchers from
-post-treatment bias caused by using the duration of agreements as a proxy for
-their strength. In others, I apply unsupervised learning techniques to over a
-billion observations of product-level international trade data to measure
-economic interdependence and illicit economic exchange.
-
-In a new avenue of research, I leverage social media data to explore
-participation in extremist movements across multiple contexts, gaining insight
-into the early stages of radicalization.
-
-<nbsp>
-
-{% include base_path %}
-
-{% assign ordered_pages = site.research | sort:"order_number" %}
-
-{% for post in ordered_pages %}
-  {% include archive-single.html type="grid" %}
-{% endfor %} -->

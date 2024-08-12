@@ -57,9 +57,9 @@ yandex_site_verification :
 
 # Social Sharing
 mastodon:
-  username               : "fosstodon.org/@jayrobw"
-twitter:
   username               : 
+twitter:
+  username               : "jaypun3kar"
 facebook:
   username               :
   app_id                 :
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Jay Punekar"
   avatar           : "profile.jpg"
-  bio              : "<b><i>COEP Tech University</i></b>"
+  bio              : "<b><i>Data Science & Analytics</i></b>"
   location         : "Pune, Maharashtra"
   employer         : 
   pubmed           :
