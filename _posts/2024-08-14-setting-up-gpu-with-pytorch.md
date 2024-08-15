@@ -72,7 +72,7 @@ Now you are done with Downloading and Setting up CUDA and cuDNN.
 
 # Creating Virtual Environment with Conda and downloading PyTorch
 
-Now open your Acanonda Prompt and type:
+Now open your Anaconda Prompt and type:
 
 ```bash
 conda create -n envname python
