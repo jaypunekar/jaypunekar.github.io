@@ -6,8 +6,8 @@ main:
   - title: "Tutorials"
     url: /tutorials/
 
-  - title: "CatOS"
-    url: /catos/
+  # - title: "CatOS"
+  #   url: /catos/
 
   - title: "Projects"
     url: /software/
