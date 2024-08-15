@@ -20,7 +20,7 @@ tags:
   - anaconda
 ---
 
-In this article I will show step-by-step on how to setup your GPU for train your ML models in Jupyter Notebook or your local system for Windows(using PyTorch).
+In this article I will show step-by-step on how to setup your GPU for train your ML models in Jupyter Notebook or your local system for Windows (using PyTorch).
 
 # Requirements
 - Python (latest version)
@@ -53,9 +53,9 @@ For Visual Studio you will have to install certain workloads which will then aut
 
 <img src="/images/posts/pytorch-gpu/cuDNN-in-C.png" style="display: block; margin: auto;" />
 
-## Adding cuDNN to Enviornment Variable
+## Adding cuDNN to Environment Variable
 
-- You will now have to add cuDNN to you Enviornment Variable. In the windows search type "edit the system enviornment variable" and Enter. You will come to this screen then click Enviornment Variable button.
+- You will now have to add cuDNN to you Environment Variable. In the windows search type "edit the system environment variable" and Enter. You will come to this screen then click Environment Variable button.
 
 <img src="/images/posts/pytorch-gpu/env-vari-main.png" style="display: block; margin: auto;" />
 
@@ -70,7 +70,7 @@ For Visual Studio you will have to install certain workloads which will then aut
 
 Now you are done with Downloading and Setting up CUDA and cuDNN.
 
-# Creating Virtual Enviornment with Conda and downloading PyTorch
+# Creating Virtual Environment with Conda and downloading PyTorch
 
 Now open your Acanonda Prompt and type:
 
@@ -79,34 +79,34 @@ conda create -n envname python
 ```
 <i>Replace envname with any name you would live to give</i>
 
-To activate the virtual enviornment type:
+To activate the virtual environment type:
 
 ```bash
 conda activate envname
 ```
 <i>Replace envname with any name you would live to give</i>
 
-Once your virtual enviornment is activated to PyTorch website [Here](https://pytorch.org/). On the page you will find the following:
+Once your virtual environment is activated to PyTorch website [Here](https://pytorch.org/). On the page you will find the following:
 
 <img src="/images/posts/pytorch-gpu/pytorch-dow.png" style="display: block; margin: auto;" />
 
-Select the approprite settings. If your current CUDA version is not there then choose the closest version to it.
-Paste the below URL to you Anaconda Prompt with virtual environmnet active.
+Select the appropriate settings. If your current CUDA version is not there then choose the closest version to it.
+Paste the below URL to you Anaconda Prompt with virtual environment active.
 
 # Using GPU inside Jupyter Notebook with PyTorch
 
 We are almost done now!
 
-## Changing envoiornment on Anaconda
+## Changing environment on Anaconda
 
-Open Anaconda Navigator and go to envornments page as shown below.
+Open Anaconda Navigator and go to environments page as shown below.
 
 <img src="/images/posts/pytorch-gpu/anaconda-main.png" style="display: block; margin: auto;" />
 
-You can also see I have three enviornments there, base(root), gputest and mygpu. You will see your virutal enviornment name there. Double click it to select and then go back to home. You will see on top that the environment has changed. Also you wiil have to install Jupyter Notebook again in the new enviornment.
+You can also see I have three environments there, base(root), gputest and mygpu. You will see your virtual environment name there. Double click it to select and then go back to home. You will see on top that the environment has changed. Also you will have to install Jupyter Notebook again in the new environment.
 <img src="/images/posts/pytorch-gpu/anaconda-home.png" style="display: block; margin: auto;" />
 
-After installation launch Jupyter though Anaconda Navigator when the appropriate virtual enviornment is selected.
+After installation launch Jupyter though Anaconda Navigator when the appropriate virtual environment is selected.
 
 ## Final testing inside Jupyter Notebook
 
@@ -132,4 +132,4 @@ The output should be as follows
 
 
 Congratulation! Now you can successfully use your GPU for training and testing your PyTorch models in Jupyter Notebook.
-If you wish to run it in your local system then activated your virtual enviornment in Anaconda Prompt and run you code there.
+If you wish to run it in your local system then activated your virtual environment in Anaconda Prompt and run you code there.
