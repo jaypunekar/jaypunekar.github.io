@@ -30,7 +30,7 @@ In this article I will show step-by-step on how to setup your GPU for train your
 For Visual Studio you will have to install certain workloads which will then automatically install C++ libraries required for CUDA.
 
 ## Visual Studio Installation
-- Setep 1: Go to Visual Studio website [here](https://visualstudio.microsoft.com/) and download the installer.
+- Step 1: Go to Visual Studio website [here](https://visualstudio.microsoft.com/) and download the installer.
 
 - Step 2: While installing you will come on workloads page. Select Mobile Development with C++ and Desktop Development with C++, keep rest the same. It may take some time to install.
 
