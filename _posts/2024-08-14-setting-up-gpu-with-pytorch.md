@@ -77,14 +77,14 @@ Now open your Anaconda Prompt and type:
 ```bash
 conda create -n envname python
 ```
-<i>Replace envname with any name you would live to give</i>
+<i>Replace envname with any name you would like to give</i>
 
 To activate the virtual environment type:
 
 ```bash
 conda activate envname
 ```
-<i>Replace envname with any name you would live to give</i>
+<i>Replace envname with any name you would like to give</i>
 
 Once your virtual environment is activated to PyTorch website [Here](https://pytorch.org/). On the page you will find the following:
 
