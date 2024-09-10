@@ -86,8 +86,9 @@ analytics:
 author:
   name             : "Jay Punekar"
   avatar           : "profile.jpg"
-  bio              : "<b>Medium</b><i> @jaypunekar</i>"
+  bio              : "<b>Data Science and Analytics</b><br><b>Medium</b><i> @jaypunekar</i>"
   location         : "Pune, Maharashtra"
+  medium           : "jaypunekar"
   employer         : 
   pubmed           :
   orcid            : 
@@ -115,7 +116,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "jaypun3kar"
+  twitter          : 
   vine             :
   weibo            :
   xing             :

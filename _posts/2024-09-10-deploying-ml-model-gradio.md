@@ -30,7 +30,7 @@ tags:
 
 ## Introduction
 
-In the last blog, we built a Computer Vision model using fastai and saved it as a `.pkl` file. In this blog, we’ll learn how to deploy that model on the web or use it directly through an API. 
+In the last blog, we built a Computer Vision model using Fastai and saved it as a `.pkl` file. In this blog, we’ll learn how to deploy that model on the web or use it directly through an API. 
 
 **Hugging Face** is a popular platform that provides tools and services for hosting and sharing machine learning models. **Gradio** is an easy-to-use library that helps you create user interfaces for your models, making them accessible and interactive.
 
@@ -153,6 +153,6 @@ You can find the instructions for using the API on the API page.
 
 In this blog, we covered the entire process of deploying a Computer Vision model using Gradio and Hugging Face. We started by creating the necessary files (`app.py` and `requirements.txt`) and then successfully deployed our model to the web. We also tested the deployed model and explored how to access it via an API for integration with front-end technologies.
 
-Feel free to experiment with your own models and explore different features offered by Gradio and Hugging Face. If you have any questions or run into issues, don’t hesitate to reach out.
+Feel free to experiment with your own model and explore different features offered by Gradio and Hugging Face. If you have any questions or run into issues, don’t hesitate to reach out.
 
 
