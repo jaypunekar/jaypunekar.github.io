@@ -22,8 +22,13 @@ tags:
   - Gradio
 ---
 
-## Introduction
+**This tutorial is divided into two parts:**
 
+- **Part 1:** Creating a model ([Part 1](https://jaypunekar.github.io/posts/2024/09/creating-image-classification-model))
+- **Part 2:** Deploying the model 
+
+
+## Introduction
 
 In the last blog, we built a Computer Vision model using fastai and saved it as a `.pkl` file. In this blog, we’ll learn how to deploy that model on the web or use it directly through an API. 
 
