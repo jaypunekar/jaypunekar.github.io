@@ -28,9 +28,9 @@ tags:
 
 An image classifier is a machine learning model that sorts images into specific categories.
 
-Building an image classifier from scratch usually needs a lot of data and training time. But with transfer learning and tools like fastai and Hugging Face, you can quickly create a powerful image classifier even with just a small amount of data. In this blog, I'll guide you through each step, showing you how to use these advanced tools to build a model that works well and is easy to use.
+Building an image classifier from scratch usually needs a lot of data and training time. But with transfer learning and tools like Fastai and Hugging Face, you can quickly create a powerful image classifier even with just a small amount of data. In this blog, I'll guide you through each step, showing you how to use these advanced tools to build a model that works well and is easy to use.
 
-We’ll create a model to tell the difference between House Cats and Wild Cats—so you can avoid petting the wrong one. We’ll name it "TheCatClassifier"!. By the end of this tutorial, you’ll have a working app that can accurately classify cats.
+We’ll create a model to tell the difference between House Cats and Wild Cats—so you can avoid petting the wrong one. We’ll name it "TheCatClassifier"! By the end of this tutorial, you’ll have a working app that can accurately classify cats.
 
 # Prerequisites
 
@@ -88,12 +88,12 @@ searchWeb("Tiger", "cats/wild_cats", 50)
 searchWeb("Leopard", "cats/wild_cats", 50)
 searchWeb("Wild cat", "cats/wild_cats", 50)
 
-# We are using 4 prompts for wild cats because, just seaching wild cats usually excludes Lions, Tigers etc.
+# We are using 4 prompts for wild cats because, just searching wild cats usually excludes Lions, Tigers etc.
 ```
 
 
 ```python
-# Path is a fastai function it will add the path of cats folder to the "path" variable.
+# Path is a Fastai function it will add the path of cats folder to the "path" variable.
 path = Path('cats')
 ```
 
@@ -101,7 +101,7 @@ path = Path('cats')
 
 ### Creating a DataBlock
 
-In fastai, a DataBlock is a class used to prepare your data for training. It helps you organize and preprocess your data in a way that's ready for model training. Essentially, it takes care of setting up your data pipeline, so you don’t have to handle the data preparation manually.
+In Fastai, a DataBlock is a class used to prepare your data for training. It helps you organize and pre-process your data in a way that's ready for model training. Essentially, it takes care of setting up your data pipeline, so you don’t have to handle the data preparation manually.
 
 In simple terms, a DataBlock helps you efficiently manage your data and get it ready for training your model.
  
@@ -134,7 +134,7 @@ For this tutorial, we will proceed without a separate validation set, but rest a
 dls = cats.dataloaders(path)
 ```
 
-Remember, fastai turns data into batches. To see the batch run the following command.
+Remember, Fastai turns data into batches. To see the batch run the following command.
 
 
 ```python
@@ -195,11 +195,11 @@ cats = cats.new(
 dls = cats.dataloaders(path, bs=5) 
 ```
 
-Now, we’re going to train the model using a pretrained model called "resnet18" as the base. 
+Now, we’re going to train the model using a pre-trained model called "resnet18" as the base. 
 
-You don’t need to worry about the details too much. This approach is known as transfer learning. It involves using a pretrained model and modifying its head node to suit your specific task. ResNet is a popular choice for vision models due to its proven performance in various image classification tasks.
+You don’t need to worry about the details too much. This approach is known as transfer learning. It involves using a pre-trained model and modifying its head node to suit your specific task. ResNet is a popular choice for vision models due to its proven performance in various image classification tasks.
 
-By leveraging a pretrained model, you can benefit from the features learned from a large dataset, which can significantly speed up the training process and improve accuracy.
+By leveraging a pre-trained model, you can benefit from the features learned from a large dataset, which can significantly speed up the training process and improve accuracy.
 
 
 ```python
@@ -319,7 +319,7 @@ In less than 2 minutes, we achieved an error rate of less than 0.05.
 
 The `metrics` parameter in the training process indicates how well the model is performing, essentially showing the error rate. It’s important to note that metrics are different from "loss". While "loss" is used internally by the neural network to evaluate its performance, it’s not meant for human interpretation. On the other hand, metrics are designed to help us understand the model's performance in more relatable terms.
 
-You might wonder why we are using the `fine_tune` method instead of `fit`. The reason is that `fine_tune` adjusts a pretrained model (like ResNet18 in this case) to our specific task, while `fit` would train the model from scratch, ignoring the benefits of the pretrained model. Fastai does offer a `fit` method, but for transfer learning, `fine_tune` is the appropriate choice.
+You might wonder why we are using the `fine_tune` method instead of `fit`. The reason is that `fine_tune` adjusts a pre-trained model (like ResNet18 in this case) to our specific task, while `fit` would train the model from scratch, ignoring the benefits of the pre-trained model. Fastai does offer a `fit` method, but for transfer learning, `fine_tune` is the appropriate choice.
 
 To further evaluate the model’s performance and identify where it might be going wrong, we will create a Confusion Matrix.
 
@@ -448,9 +448,9 @@ whichCat,_,probs = learn.predict(img)
 print(whichCat, ", ", probs)
 ```
 
-Since we can’t upload images directly in this blog, I’ve taken an image of a tiger from the internet and will display it using matplotlib. This allows us to visualize the image and test how our model handles it.
+Since we can’t upload images directly in this blog, I’ve taken an image of a tiger from the internet and will display it using Matplotlib. This allows us to visualize the image and test how our model handles it.
 
-Here's how you can display the image using matplotlib:
+Here's how you can display the image using Matplotlib:
 
 
 ```python
@@ -571,7 +571,7 @@ print(whichCat, ", ", probs)
     wild_cats ,  tensor([0.4883, 0.5117])
     
 
-As you can see, this model will attempt to classify any given image into "wild" or "house" cats. It’s important to note that this behavior is not a bug but rather a limitation of how this type of model is designed. We won't be addressing this issue in this blog, but you can read the fastai [docs](https://docs.fast.ai/) for more information and potential workarounds.
+As you can see, this model will attempt to classify any given image into "wild" or "house" cats. It’s important to note that this behavior is not a bug but rather a limitation of how this type of model is designed. We won't be addressing this issue in this blog, but you can read the Fastai [docs](https://docs.fast.ai/) for more information and potential workarounds.
 
 ## Exporting the model
 
@@ -647,6 +647,6 @@ Check out [Part 2](https://jaypunekar.github.io/posts/2024/09/deploying-ml-model
 
 ## Conclusion
 
-In this tutorial, we demonstrated how to quickly create an image classifier using transfer learning with fastai. We started by setting up our environment, downloading and preparing the data, and training a model to distinguish between house cats and wild cats. With minimal data and training time, we achieved impressive results, thanks to the power of transfer learning.
+In this tutorial, we demonstrated how to quickly create an image classifier using transfer learning with Fastai. We started by setting up our environment, downloading and preparing the data, and training a model to distinguish between house cats and wild cats. With minimal data and training time, we achieved impressive results, thanks to the power of transfer learning.
 
 By exporting the trained model, we made it ready for deployment. In the next part, we'll cover how to deploy this model so that it can be used in real-world applications. Stay tuned to see how you can put your model to work on the web!
