@@ -22,7 +22,7 @@ tags:
 **This tutorial is divided into two parts:**
 
 - **Part 1:** Creating a model
-- **Part 2:** Deploying the model ([Part 2]())
+- **Part 2:** Deploying the model ([Part 2](https://jaypunekar.github.io/posts/2024/09/deploying-ml-model-gradio))
 
 # Introduction
 
@@ -643,7 +643,7 @@ print(img, idx, probs)
 
 We have successfully exported the trained model, and now it's time to deploy it. You can find the deployment process in Part 2 of this blog series.
 
-Check out [Part 2]() to learn how to deploy your model and make it accessible on the web.
+Check out [Part 2](https://jaypunekar.github.io/posts/2024/09/deploying-ml-model-gradio) to learn how to deploy your model and make it accessible on the web.
 
 ## Conclusion
 
