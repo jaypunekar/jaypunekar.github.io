@@ -164,6 +164,7 @@ dls.train.show_batch(max_n=4, nrows=1, unique=True)
 
 
 ## Data Augmentation
+Fastai creates batches to feed into GPU(default 64).
 
 Now, we’ll transform the image batches. This process is known as Data Augmentation. Data augmentation helps improve the model's generalization by applying random transformations to the images.
 
@@ -171,6 +172,7 @@ To apply data augmentation, run the following command:
 
 
 ```python
+# aug_transforms is a set of standard augmentations that fastai provides
 cats = cats.new(item_tfms=Resize(128), batch_tfms=aug_transforms(mult=2))
 dls = cats.dataloaders(path, bs=5)
 dls.train.show_batch(max_n=8, nrows=2, unique=True)
@@ -193,6 +195,8 @@ cats = cats.new(
     item_tfms=RandomResizedCrop(224, min_scale=0.5),
     batch_tfms=aug_transforms())
 dls = cats.dataloaders(path, bs=5) 
+# bs=5 is batch size, default batch size is 64, but if you don't have enough data 
+# it's better to reduce it. 
 ```
 
 Now, we’re going to train the model using a pre-trained model called "resnet18" as the base. 
@@ -580,6 +584,9 @@ To export the model, use the following command:
 
 ```python
 learn.export() # learn.export("name_of_model.pkl")
+# Check if the file exist
+path = Path()
+path.ls(file_exts='.pkl')
 ```
 
 The `learn.export()` method saves the model as `export.pkl` in the current directory by default. If you want to use a custom name for the saved model, specify it as a string parameter, making sure to include the `.pkl` extension. For example, `learn.export('my_custom_model.pkl')` will save the model as `my_custom_model.pkl`.
