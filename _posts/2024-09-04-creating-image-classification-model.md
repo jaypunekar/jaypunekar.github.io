@@ -652,6 +652,24 @@ We have successfully exported the trained model, and now it's time to deploy it.
 
 Check out [Part 2](https://jaypunekar.github.io/posts/2024/09/deploying-ml-model-gradio) to learn how to deploy your model and make it accessible on the web.
 
+## Limitations of this Model
+Let’s say we really were rolling out a cat
+detection system that will be attached to video cameras around campsites in national
+parks and will warn campers of incoming cats. If we used a model trained with the
+dataset we downloaded, there would be all kinds of problems in practice, such as
+these:
+- Working with video data instead of images
+- Handling nighttime images, which may not appear in this dataset
+- Dealing with low-resolution camera images
+- Ensuring results are returned fast enough to be useful in practice
+- Recognizing cats in positions that are rarely seen in photos that people post online (for example from behind, partially covered by bushes, or a long way away from the camera)
+
+A big part of the issue is that the kinds of photos that people are most likely to upload
+to the internet are the kinds of photos that do a good job of clearly and artistically
+displaying their subject matter—which isn’t the kind of input this system is going to
+be getting. So, we may need to do a lot of our own data collection and labeling to cre‐
+ate a useful system.
+
 ## Conclusion
 
 In this tutorial, we demonstrated how to quickly create an image classifier using transfer learning with Fastai. We started by setting up our environment, downloading and preparing the data, and training a model to distinguish between house cats and wild cats. With minimal data and training time, we achieved impressive results, thanks to the power of transfer learning.
