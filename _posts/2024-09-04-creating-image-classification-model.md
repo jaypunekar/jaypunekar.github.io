@@ -319,7 +319,7 @@ learn.fine_tune(4)
 </table>
 
 
-In less than 2 minutes, we achieved an error rate of less than 0.05. 
+In less than 2 minutes, we achieved an error rate of less than 0.03 (3%). 
 
 The `metrics` parameter in the training process indicates how well the model is performing, essentially showing the error rate. It’s important to note that metrics are different from "loss". While "loss" is used internally by the neural network to evaluate its performance, it’s not meant for human interpretation. On the other hand, metrics are designed to help us understand the model's performance in more relatable terms.
 
@@ -425,7 +425,7 @@ interp.plot_top_losses(5, nrows=1, figsize=(25, 4))
     
 
 
-We can see that with very little training time and data, we achieve over 99% accuracy on our model. It’s impressive considering we haven’t cleaned or thoroughly examined our data, yet we are still getting exceptional results.
+We can see that with very little training time and data, we achieve over 97% accuracy on our model. It’s impressive considering we haven’t cleaned or thoroughly examined our data, yet we are still getting exceptional results.
 
 The next question is: how do we use this model in an application, whether it's a mobile app, web app, or any other type of application? To do this, we will export the model in pickle format. I'll show you how this works. But first, let’s test our model.
 
