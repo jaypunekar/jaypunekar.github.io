@@ -7,8 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Welcome to my portfolio! I am a BSc Mathematics graduate currently pursuing a Postgraduate Diploma in Data Science and Artificial Intelligence from COEP Technological University. My journey so far has been very diverse, encompassing hands-on experience with projection mapping, static web development, drone swarming, and microcontrollers(ESP8266/ESP32). 
+Welcome to my portfolio! I’m a BSc. Mathematics graduate pursuing a PG Diploma in Data Science and AI at COEP Technological University. My journey includes diverse experiences in projection mapping, web development, drone swarming, and VR syncing.
 
-I have had the opportunity to work on Virtual Reality syncing and collaborate with former ISRO (Indian Space Research Organization) scientists on multiple hardware projects at Suresh Naik Space Park in Pune. Currently, I am diving deep into the fields of Data Science and AI/ML, exploring their vast potentials and applications.
+Since high school, I’ve worked on various tech projects, even collaborating with former ISRO scientists on advanced hardware at Suresh Naik Space Park in Pune. Currently, I’m focused on exploring Data Science and AI/ML and their wide-ranging applications.
 
-This portfolio website is a space where I share my knowledge and insights. You’ll find tutorials on niche topics such as drone swarming and projection mapping—areas with limited resources available online—as well as blog posts discussing various aspects of data science and artificial intelligence.
+This site showcases my projects in niche fields like drone swarming and projection mapping. I’m also planning to add exciting tutorials on the same. Stay tuned!

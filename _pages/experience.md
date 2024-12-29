@@ -10,26 +10,63 @@ header:
 
 Here, I am sharing my previous freelance work experience, which spans diverse fields including dome projection mapping, IoT development, web development, and VR systems integration.
 
+## Sneh Resort
+<div align="right"><b>Date: </b>July 2024 - Jan 2025</div>
+
+### *270° Projection Mapping*
+---
+
+**Project:**  
+I worked on a 270° projection mapping project at Sneh Resort, using five projectors to cover a large curved screen. The goal was to create an immersive visual experience with seamless alignment and blending.
+
+**Equipment:**  
+- **Projectors:** Five high-resolution projectors for full coverage.  
+- **Graphics Card:** NVIDIA graphics card for smooth video output.  
+- **Software:** Advanced mapping software for edge blending and alignment.  
+
+**Outcome:**  
+The project delivered a stunning 270° immersive display with perfectly aligned visuals and smooth transitions between the projectors.
+
+---
+
+### *Curved Screen Projection*
+---
+
+**Project:**  
+This project involved mapping visuals onto a smaller curved screen using two projectors. The aim was to achieve a cost-effective yet impactful visual presentation.
+
+**Equipment:**  
+- **Projectors:** Two projectors for efficient coverage.  
+- **Graphics Card:** NVIDIA graphics card to manage output.  
+- **Software:** Mapping software for precise alignment and blending.  
+
+**Outcome:**  
+The result was a visually engaging display with seamless blending, achieved with a simplified and budget-friendly setup.
+
+
 ## River Paradise Resort
-<div align="right"><b>Date: </b>June 2023 - Oct 2023</div>
-*<b>Dome Projection Mapping</b>*
+<div align="right"><b>Date: </b>June 2023 - Nov 2024</div>
 
-### Project:
-  - I worked on a dome projection mapping project where the visuals were projected onto a 10-meter geodesic dome. The goal was to create a fully immersive experience with precise alignment and seamless blending of visuals across the curved surface of the dome.
+### *Dome Projection Mapping*
+---
 
-### Equipment:
-  - I used four short-throw projectors to ensure that the visuals covered the entire dome surface without distortion.
-  - A powerful media server equipped with an Nvidia Quadro graphics card was responsible for handling the visual data. The Quadro card was crucial for rendering the high-quality visuals required for such an immersive projection.
-  - The visuals were captured using a Canon EOS 5D Mark IV camera, paired with a Canon EF 8-15mm f/4L Fisheye USM lens. This lens was chosen specifically for its ability to capture wide-angle images, which are essential for dome projection.
+**Project:**  
+I worked on a 10-meter geodesic dome projection mapping project, aiming to create a fully immersive experience with precise alignment and seamless blending of visuals.
 
-### Software:
-  - Vioso 6 was used to handle the complex task of warping, blending, and calibrating the visuals across the dome's surface. Its advanced features made it possible to achieve a perfect alignment between the projectors.
-  - NestMap software played a key role in mapping and aligning the visuals on the dome. It provided the necessary tools to ensure that the images were correctly placed and blended across the dome’s curved surface.
-  - NestPlay Lite was utilized to manage content playback. It ensured that the visual content was played smoothly and in sync across all the projectors, which is crucial for maintaining the immersive experience.
-  - The EOS Webcam Utility Software allowed me to monitor the setup in real-time. This was particularly useful for making adjustments on the fly and ensuring that everything was running as expected.
+**Equipment:**  
+- Four short-throw projectors for distortion-free coverage of the entire dome.  
+- Media server with an Nvidia Quadro graphics card for rendering high-quality visuals.  
+- Canon EOS 5D Mark IV with a Canon EF 8-15mm f/4L Fisheye USM lens for capturing wide-angle images essential for dome projections.
 
-### Outcome:
-  - By combining all this equipment and software, I was able to create a seamless and highly immersive visual experience on the dome. The projectors, media server, and software all worked together to produce a stunning display that covered the entire surface of the dome with perfectly aligned and blended visuals.
+**Software:**  
+- **Vioso 6:** Managed warping, blending, and calibration for perfect projector alignment.  
+- **NestMap:** Ensured accurate mapping and blending of visuals across the dome.  
+- **NestPlay Lite:** Handled smooth, synchronized content playback across all projectors.  
+- **EOS Webcam Utility:** Provided real-time monitoring for on-the-fly adjustments.
+
+**Outcome:**  
+This setup delivered a seamless, immersive visual experience, with perfectly aligned and blended visuals covering the entire dome surface.
+
 
 ## CanSat
 <div align="right"><b>Date: </b>Feb 2023 - July 2023</div>

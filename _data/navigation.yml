@@ -3,8 +3,8 @@ main:
   - title: "Experience"
     url: /experience/
 
-  - title: "Tutorials"
-    url: /tutorials/
+  # - title: "Tutorials"
+  #   url: /tutorials/
 
   # - title: "CatOS"
   #   url: /catos/
